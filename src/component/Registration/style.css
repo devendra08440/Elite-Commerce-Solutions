@@ -36,7 +36,7 @@
             width: 75%;
             padding-top: 20px;
             margin-bottom: 10%;
-            height: fit-content;
+            height: 400px/* fit-content; */;
             display: flex;
             align-items: center;
             flex-direction: column;
