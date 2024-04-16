@@ -1,0 +1,75 @@
+.footer-container{
+    width: 100%;
+    height: fit-content;
+    background-color: #5352ed;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    
+
+    .contactUs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        hr{
+            width: 25vw;
+            height: 0px;
+            border: 0.5px solid white;
+            background-color: white;
+            border-bottom: 0px;
+        }
+        ul{
+            width: 40vw;
+            list-style: none;
+            padding-left: 0px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        li a img{
+            width: 18px;
+        }
+        li a #youtubeIcon{
+            width: 24px;
+            height: 24px;
+            margin-top: -2px;
+        }
+    }
+    .title span{
+        font-size: 18px;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .description span{
+        font-size: 14px;
+        color: white;
+        word-spacing: 5px;
+        font-family: cursive;
+    }
+    .accessbility-links ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        list-style: none;
+        position: relative;
+        top: -12px;
+        
+        
+        li a{
+            color: white;
+            font-size: 14px;
+        }
+        hr{
+            height: 8px;
+            border: 1px solid white;
+            border-right: 0px;
+        }
+    }
+}
