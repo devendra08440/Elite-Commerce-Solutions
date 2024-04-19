@@ -96,9 +96,11 @@
             }
             .phoneinfo{
                 margin-bottom: 1vh;
-                span{
+                span, a{
                     font-size: 12px;
                     margin: 0;
+                    margin-right: 0.5vw;
+                    text-decoration: none;
                 }
             }
             .inputTextField{

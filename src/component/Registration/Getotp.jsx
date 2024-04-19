@@ -6,7 +6,10 @@ import linkedinIcon from '../../asset/icons/linkedin.png';
 
 const Getotp = () =>{
     return(
-        <>
+        <>  
+            <div className="heading">
+                        <h1>Sign Up</h1>
+            </div>
             <div className="signin-options">
                 <ul>
                     <li className="list-item">

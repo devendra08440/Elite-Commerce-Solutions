@@ -2,18 +2,18 @@ import React from "react";
 import './style.css';
 import Getotp from './Getotp.jsx';
 import Validateotp from "./Validateotp.jsx";
+/* import RegistrationDetails from "./RegistrationDetails.jsx"; */
 
 const Registration = () => {
     return (
         <div className="registration-container">
             <div className="main">
                 <div className="left">
-                    <div className="heading">
-                        <h1>Sign Up</h1>
-                    </div>
+                    
 
                     <Getotp/>
                     {/* <Validateotp/> */}
+                    {/* <RegistrationDetails/> */}
                     
                 </div>
                 <div className="right">
