@@ -10,6 +10,7 @@ const Registration = () => {
         <div className="registration-container">
             <div className="main">
                 <div className="left">
+
                     <div className="heading">
                         <h1>Sign Up</h1>
                     </div>
@@ -32,7 +33,20 @@ const Registration = () => {
                     </div>
 
                     <div className="helpText">
-                        <span>or use your Email/ Phone to Register here </span>
+                        <span>or use your Phone to Register here </span>
+                    </div>
+
+                    <div className="inputTextField">
+                        <select name="countrycode" id="countrycode">
+                            <option value="India" selected>+91</option>
+                            <option value="US">+1</option>
+                        </select>
+                        <input type="tel" className="phone" placeholder="Phone" maxLength={10}/>
+                        {/* <label htmlFor="">Email</label> */}
+                    </div>
+
+                    <div className="buttonField">
+                        <button>Get OTP</button>
                     </div>
                 </div>
                 <div className="right">
@@ -43,6 +57,8 @@ const Registration = () => {
                     <div className="description">
                         <span>Shop 'Til You Drop…But Don't Cry</span>
                     </div>
+
+
                 </div>
             </div>
         </div>
