@@ -94,6 +94,13 @@
                     margin: 0;
                 }
             }
+            .phoneinfo{
+                margin-bottom: 1vh;
+                span{
+                    font-size: 12px;
+                    margin: 0;
+                }
+            }
             .inputTextField{
                 width: 80%;
                 margin-bottom: 2vh;
