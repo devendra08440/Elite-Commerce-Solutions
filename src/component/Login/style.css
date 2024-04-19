@@ -3,8 +3,8 @@
     height: 80vh;
     display: flex;
     justify-content: center;
-    padding: 10vh 5vw;
-    background: linear-gradient(135deg, #fff,#5352ed66);
+    padding: 10vh 4.3vw;
+    /* background: linear-gradient(135deg, #fff,#5352ed66); */
 
     @media screen and (max-width: 620px) {
         flex-direction: column;
