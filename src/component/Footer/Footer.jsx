@@ -9,36 +9,22 @@ import youtubeIcon from '../../asset/icons/footer/youtube2.png';
 const Footer = () => {
     return (
         <div className="footer-container">
-            <div className="contactUs">
-                <hr/>
-                <ul>
-                    <li><a href=""><img src={facebookIcon} id="facebookIcon"/></a></li>
-                    <li><a href=""><img src={instagramIcon} id="instagramIcon"/></a></li>
-                    <li><a href=""><img src={youtubeIcon} id="youtubeIcon"/></a></li>
-                    <li><a href=""><img src={twitterIcon} id="twitterIcon"/></a></li>
-                    <li><a href=""><img src={linkedinIcon} id="linkedinIcon"/></a></li>
-                </ul>
-                <hr/>
+            
+
+            <div className="company-name">
+                <div className="company">
+                    Elite Commerce Solutions
+                </div>
+                <div className="seperator">|</div>
+                <div className="phrase">
+                    Shop 'Til You Drop…But Don't Cry
+                </div>
             </div>
 
-            <div className="title">
-                <span>E-Commerce Solutions</span>
+            <div className="copyright-info">
+                © Copyright 2015 All rights reserved.
             </div>
 
-            <div className="description">
-                <span>Shop 'Til You Drop…But Don't Cry</span>
-            </div>
-
-            <div className="accessbility-links">
-                <ul>
-                    <hr/>
-                    <li><a href="">Legal Stuff</a></li> <hr/>
-                    <li><a href="">Privacy Policy</a></li> <hr/>
-                    <li><a href="">Security</a></li> <hr/>
-                    <li><a href="">Website Accessbility</a></li> <hr/>
-                    <li><a href="">Manage Cookies</a></li>
-                </ul>
-            </div>
         </div>
     );
 };
