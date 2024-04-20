@@ -113,24 +113,11 @@
                     width: 100%;
                     margin-bottom: 2vh;
                     display: flex;
-                    justify-content: center;
+                    flex-direction: column;
                     align-items: center;
                     position: relative;
-                    select{
-                        width: 30%;
-                        font-size: 1rem;
-                        padding: 1vh 1vw;
-                        margin-right: 5px;
-                        border-radius: 10px;
-                        border: 0px;
-                        background-color: rgba(128, 128, 128, 0.301);
-                    }
-                    
-                    select:focus{
-                        outline: none
-                    }
 
-                    input{
+                   input{
                         width: 80%;
                         font-size: 1rem;
                         padding: 1vh 2vw;
@@ -143,18 +130,50 @@
                         outline: none
                     }
 
-                    
+                    .phonenumber{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        
+                        select{
+                            width: 30%;
+                            font-size: 1rem;
+                            padding: 1vh 1vw;
+                            margin-right: 5px;
+                            border-radius: 10px;
+                            border: 0px;
+                            background-color: rgba(128, 128, 128, 0.301);
+                        }
+                        
+                        select:focus{
+                            outline: none
+                        }
 
+                        input{
+                            width: 50%;
+                            
+                        }
+
+                    }
+                    
                     label{
                         font-size: 0.8rem;
+                        padding: 1vh 1vw;
+                    }
+
+                    .gender{
+                        display: flex;
+                        flex-direction: row;
                     }
                 }
             }
             
             .buttonField{
-                width: 40%;
+                width: 50%;
                 display: flex;
                 justify-content: center;
+                
                 
                 button{
                     width: 100%;

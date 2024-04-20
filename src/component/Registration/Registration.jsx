@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 import Getotp from './Getotp.jsx';
 import Validateotp from "./Validateotp.jsx";
-/* import RegistrationDetails from "./RegistrationDetails.jsx"; */
+import RegistrationDetails from "./RegistrationDetails.jsx";
 
 const Registration = () => {
     return (
@@ -11,8 +11,8 @@ const Registration = () => {
                 <div className="left">
                     
 
-                    <Getotp/>
-                    {/* <Validateotp/> */}
+                    {/* <Getotp/> */}
+                    <Validateotp/>
                     {/* <RegistrationDetails/> */}
                     
                 </div>

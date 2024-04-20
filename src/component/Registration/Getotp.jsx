@@ -31,12 +31,14 @@ const Getotp = () =>{
             </div>
             <div className="inputfield-container">
                 <div className="inputTextField">
-                    <select name="countrycode" id="countrycode">
-                        <option value="India" selected>+91</option>
-                        <option value="US">+1</option>
-                    </select>
-                    <input type="tel" className="phone" placeholder="Phone" maxLength={10}/>
-                        {/* <label htmlFor="">Email</label>*/}
+                    <div className="phonenumber">
+                        <select name="countrycode" id="countrycode">
+                            <option value="India" selected>+91</option>
+                            <option value="US">+1</option>
+                        </select>
+                        <input type="tel" className="phone" placeholder="Phone" maxLength={10}/>
+                            {/* <label htmlFor="">Email</label>*/}
+                    </div>
                 </div>
 
                 <div className="buttonField">
