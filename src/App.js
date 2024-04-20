@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className='main'>
-        <Login/>
+        {/* <Login/> */}
         <Registration/>
       </div>
       <div className='content-info-footer'>
