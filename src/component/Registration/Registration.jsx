@@ -8,15 +8,21 @@ const Registration = () => {
     return (
         <div className="registration-container">
             <div className="main">
-                <div className="left">
-                    
-
-                    {/* <Getotp/> */}
-                    <Validateotp/>
-                    {/* <RegistrationDetails/> */}
+                <div className="header" >
+                    <span tabIndex={0}>x</span>
+                </div>
+                
+                <div className="body">
+                    <Getotp/>
+                    {/* <Validateotp/>
+                    <RegistrationDetails/> */}
                     
                 </div>
-                <div className="right">
+
+                <div className="footer" >
+                    <span>Shop 'Til You Drop…But Don't Cry</span>
+                </div>
+                {/* <div className="right">
                     <div className="title">
                         <h1>Elite Commerce Solutions</h1>
                     </div>
@@ -24,7 +30,7 @@ const Registration = () => {
                     <div className="description">
                         <span>Shop 'Til You Drop…But Don't Cry</span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

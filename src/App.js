@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='main'>
         {/* <Login/> */}
-        <Registration/>
+       <Registration/> 
       </div>
       <div className='content-info-footer'>
         <Footer/>

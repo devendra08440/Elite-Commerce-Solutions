@@ -10,6 +10,7 @@ const Getotp = () =>{
             <div className="heading">
                         <h1>Sign Up</h1>
             </div>
+
             <div className="signin-options">
                 <ul>
                     <li className="list-item">
@@ -26,21 +27,28 @@ const Getotp = () =>{
                     </li>
                 </ul>
             </div>
+
             <div className="helpText">
                 <span>or use your Phone to Register here </span>
             </div>
+
             <div className="inputfield-container">
-                <div className="inputTextField">
-                    <div className="phonenumber">
-                        <select name="countrycode" id="countrycode">
+                <div className="phonenumber">
+
+                    <div className="inputTextField">
+                        <select name="countrycode" className="countrycode">
                             <option value="India" selected>+91</option>
                             <option value="US">+1</option>
                         </select>
-                        <input type="tel" className="phone" placeholder="Phone" maxLength={10}/>
-                            {/* <label htmlFor="">Email</label>*/}
                     </div>
-                </div>
 
+                    <div className="inputTextField">
+                        <input type="tel" className="phone" maxLength={10} required/>
+                        <label htmlFor="">Phone</label>
+                    </div>
+
+                </div>
+                
                 <div className="buttonField">
                     <button>Get OTP</button>
                 </div>
